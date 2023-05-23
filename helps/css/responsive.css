@@ -1,0 +1,694 @@
+/* last size*/
+@media(min-width:0px) and (max-width:400px) {
+    /* Start Navber Section */
+    nav .container .navbar-collapse  .navbar-nav{
+        text-align: end;
+        background-color: white;
+        width: 40%;
+    }
+    .navbar .navbar-nav .nav-item{
+        width: 100%;
+
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        border:1px solid rgb(184, 182, 182) ;
+        transition: 1s all;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        background-color: #13b87b;
+        color: white;
+    }
+    .navbar .navbar-nav .nav-item .active_nav{
+       background-color: #13b87b;
+       color: white;
+    }
+    /* header Section */
+    .r_header{
+        padding: 60px 0px 0px 0px;
+    }
+    .header_bg .container .row .pic-2{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .img-bg-1{
+        width: 50%;
+    }
+    /* Services SEction */
+    .services pb-3{
+        padding-bottom:10px ;
+    }
+    #servicse{
+        padding-top: 10px;
+    }
+    /* Resume Section */
+    .pic_data img{
+        height: auto;
+        width: 50%;
+    }
+    .my_resume{
+        margin-top: 10px;
+    }
+    /* saTART Counter Section */
+
+    .work_done .work_done_bg{
+    padding: 20px 0px;
+    }
+    .counting p{
+        font-size: 16px;
+    }
+
+    /* START suxxces Section */
+    .another{
+        background: #33cc99;
+        padding: 30px 0px;
+    }
+    .another .mx-auto p{
+        font-size: 18px;
+    }
+
+    /* Project Section */
+    .my_project h1{
+        margin: 15px 0px;
+    }
+    
+    .projecctname{
+        padding: 3px 6px;
+        font-size: 11px;
+    }
+    .p_hover{
+        padding-top:15% ;
+    }
+    .slider_pic h4{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* Start claint comment sections */
+     .claint_comment{
+        padding: 10px 0px;
+        margin-top: 25px;
+    }    
+    .comment_div img{
+            width: 135%;
+     }
+     .clint_header{
+        padding: 10px 0px;
+    }
+
+    /* from Section start */
+
+    .from_section{
+        padding: 20px 0px;
+    }
+    .from_section .form_width textarea{
+        height: 80px;
+    }
+    /* Start Follow Me Section */
+
+    .my_follow{
+        padding: 10px 0px;
+    }
+    .my_follow h1{
+        margin-bottom: 10px;
+    }
+      /* Start Footer Section */
+      footer h1{
+        padding-bottom: 7px;
+    }
+    footer h6{
+        font-size: 24px;
+    }
+    footer address p {
+        font-size: 14px;
+        padding-left: 15px;
+        line-height: 2;
+    }
+    .footer_l p {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+    
+    }
+    .footer .container{
+        padding-bottom: 0px;
+    }
+    footer address h6 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    footer .footer_p{
+        margin-bottom: 5px;
+    }
+    footer{
+        padding: 5px 0px 2px 0px;
+    }
+    .footer_l p i{
+        font-size: 24px;
+        color: #3bd67e;
+        padding-bottom: 3px;
+    }
+    footer .last_f{
+        padding-top: 2px;
+    }
+    footer .container{
+        padding-bottom: 0px;
+    }
+}
+
+
+@media(min-width:0px) and (max-width:300px){
+    /* project section */
+    .projecctname{
+        padding: 1px 2px;
+        font-size: 10px;
+    }
+    
+    .p_hover{
+        padding-top:10% ;
+    }
+    .slider_pic h4{
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+/* sm-size */
+@media(min-width:401px) and (max-width:576px) {
+    /* Start Navber Section */
+    nav .container .navbar-collapse  .navbar-nav{
+        text-align: end;
+        background-color: white;
+        width: 40%;
+    }
+    .navbar .navbar-nav .nav-item{
+        width: 100%;
+
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        border:1px solid rgb(184, 182, 182) ;
+        transition: 1s all;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        background-color: #13b87b;
+        color: white;
+    }
+    .navbar .navbar-nav .nav-item .active_nav{
+       background-color: #13b87b;
+       color: white;
+    }
+    /* start header secti0on */
+    .r_header{
+        padding: 60px 0px 0px 0px;
+    }
+    .header_bg .container .row .pic-2{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .img-bg-1{
+        width: 50%;
+    }
+    /* Resume Section */
+    .pic_data img{
+        height: auto;
+        width: 50%;
+        margin: 0px auto;
+    }
+    .my_resume{
+        margin-top: 15px;
+    }
+    /* saTART Counter Section */
+
+    .work_done .work_done_bg{
+        padding: 30px 0px;
+        }
+
+     /* START suxxces Section */
+    .another{
+        background: #33cc99;
+        padding: 40px 0px;
+    }
+    .another .mx-auto p{
+        font-size: 24px;
+    }
+
+    /* Project Section */
+    .my_project h1{
+        margin: 30px 0px;
+    }
+    .projecctname{
+        padding: 4px 9px;
+        font-size: 15px;
+    }
+    .p_hover{
+        padding-top:20% ;
+    }
+    .slider_pic h4{
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+     /* Start claint comment sections */
+     .claint_comment{
+        padding: 20px 0px;
+        margin-top: 60px;
+    }   
+    .clint_header{
+        padding: 15px 0px;
+    }
+    /* from Section start */
+
+    .from_section{
+        padding: 30px 0px;
+    }
+    .from_section .form_width textarea{
+        height: 100px;
+    }
+      
+    /* Start Follow Me Section */
+
+    .my_follow{
+        padding: 15px 0px;
+    }
+    .my_follow h1{
+        margin-bottom: 15px;
+    }
+       /* Start Footer Section */
+    footer h1{
+        padding-bottom: 7px;
+    }
+    footer h6{
+        font-size: 28px;
+    }
+    footer address p {
+        font-size: 15px;
+        padding-left: 20px;
+        line-height: 2.5;
+    }
+    .footer_l p {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+    
+    }
+    .footer .container{
+        padding-bottom: 0px;
+    }
+    footer address h6 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    footer .footer_p{
+        margin-bottom: 10px;
+    }
+    footer{
+        padding: 20px 0px 5px 0px;
+    }
+    footer .last_f{
+        padding-top: 10px;
+    }
+    footer .container{
+        padding-bottom: 0px;
+    }
+
+}
+/* md-size */
+@media(min-width:577px) and (max-width:768px) {
+    /* Start Navber Section */
+    nav .container .navbar-collapse  .navbar-nav{
+        text-align: end;
+        background-color: white;
+        width: 40%;
+    }
+    .navbar .navbar-nav .nav-item{
+        width: 100%;
+
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        border:1px solid rgb(184, 182, 182) ;
+        transition: 1s all;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        background-color: #13b87b;
+        color: white;
+    }
+    .navbar .navbar-nav .nav-item .active_nav{
+       background-color: #13b87b;
+       color: white;
+    }
+    /* Start Header Section */
+    .r_header{
+        padding: 80px 0px 0px 0px;
+    }
+    .header_bg .container .row .pic-2{
+        padding-top: 5px;
+        text-align: center;
+    }
+    .img-bg-1{
+        width: 50%;
+    }
+    /* Resume Section */
+    .pic_data img{
+        height: auto;
+        width: 50%;
+    }
+    .my_resume{
+        margin-top: 15px;
+    }
+    /* saTART Counter Section */
+
+    .work_done .work_done_bg{
+        padding: 40px 0px;
+        }
+
+    /* START suxxces Section */
+
+    .another{
+        background: #33cc99;
+        padding: 40px 0px;
+    }
+    .another .mx-auto p{
+        font-size: 28px;
+    }
+
+
+    /* Project Section */
+    .my_project h1{
+        margin: 40px 0px;
+    }
+
+      /* Start claint comment sections */
+    .claint_comment{
+        padding: 30px 0px;
+        margin-top: 80px;
+    }  
+    .clint_header{
+        padding: 20px 0px;
+    }
+    /* from Section start */
+
+    .from_section{
+        padding: 40px 0px;
+    }
+    .from_section .form_width textarea{
+        height: 120px;
+    }
+
+    /* Start Follow Me Section */
+
+    .my_follow{
+        padding: 20px 0px;
+    }
+    .my_follow h1{
+        margin-bottom: 20px;
+    }
+    /* Start Footer Section */
+    footer h1{
+        padding-bottom: 12px;
+    }
+    footer h6{
+        font-size: 28px;
+    }
+    footer address p {
+        font-size: 16px;
+        padding-left: 20px;
+        line-height: 2.5;
+    }
+    .footer_l p {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    
+    }
+    .footer .container{
+        padding-bottom: 0px;
+    }
+    footer address h6 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    footer .footer_p{
+        margin-bottom: 30px;
+    }
+    footer{
+        padding: 40px 0px 5px 0px;
+    }
+    footer .last_f{
+        padding-top: 30px;
+    }
+    footer .container{
+        padding-bottom: 24px;
+    }
+}
+/* lg-size */
+@media(min-width:769px) and (max-width:992px) {
+    /* Start  Nav section */
+    .navbar .navbar-nav .nav-item{
+        margin-right: 5px;
+    }
+    /* start Header Sections */
+    .r_header{
+        padding: 100px 0px 40px 0px;
+    }
+    .header_bg .container .row .pic-2{
+        padding-top: 45px;
+    }
+    /* Resume Section */
+    .my_resume{
+        margin-top: 20px;
+    }
+    .my_resume .row .gy-3 {
+        padding-top: 50px;
+    }
+    /* saTART Counter Section */
+
+    .work_done .work_done_bg{
+        padding: 40px 0px;
+        }
+
+     /* START suxxces Section */
+
+    .another{
+        background: #33cc99;
+        padding: 50px 0px;
+    }
+    .another .mx-auto p{
+        font-size: 28px;
+    }
+
+
+
+     /* Project Section */
+     .my_project h1{
+        margin: 50px 0px;
+    }
+
+      /* Start claint comment sections */
+    .claint_comment{
+        padding: 30px 0px;
+        margin-top: 90px;
+    }   
+
+    /* sTART Follow Me section */
+
+    .follow_section .m-2 .follow_pic a i{
+        font-size: 30px;
+    }
+    .follow_section .m-2 .follow_pic p{
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 12px;
+    }
+    /* Start Follow Me Section */
+
+    .my_follow{
+        padding: 25px 0px;
+    }
+    .my_follow h1{
+        margin-bottom: 25px;
+    }
+    /* Start Footer Section */
+    footer h1{
+        padding-bottom: 20px;
+    }
+    .footer .container{
+        padding-bottom: 20px;
+    }
+    footer address h6 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    footer .footer_p{
+        margin-bottom: 30px;
+    }
+    footer{
+        padding: 40px 0px 15px 0px;
+    }
+    footer .last_f{
+        padding-top: 30px;
+    }
+    footer .container{
+        padding-bottom: 24px;
+    }
+      
+}
+/* xl-size */
+@media(min-width:993px) and (max-width:1200px) {
+    /* Start NAv Sections */
+    .navbar .navbar-nav .nav-item{
+        margin-right: 14px;
+    }
+    /* Header Section */
+    .r_header{
+        padding: 100px 0px 70px 0px;
+    }
+    .header_bg .container .row .pic-2{
+        padding-top: 55px;
+    }
+    /* saTART Counter Section */
+
+    .work_done .work_done_bg{
+        padding: 50px 0px;
+        }
+    /* My Resume Section */
+    .my_resume .row .gy-3 {
+         padding-top: 30px;
+     }
+
+    /* START suxxces Section */
+
+    .another{
+        background: #33cc99;
+        padding: 70px 0px;
+    }
+    .another .mx-auto p{
+        font-size: 32px;
+    }
+
+
+
+     /* Project Section */
+     .my_project h1{
+        margin: 60px 0px;
+    }
+    
+    .projecctname{
+        padding: 8px 20px;
+        font-size: 28px;
+    }
+    .p_hover{
+        padding-top:30% ;
+    }
+    .slider_pic h4{
+        margin-top: 15px;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    /* Start claint comment sections */
+    .claint_comment{
+        padding: 35px 0px;
+        margin-top: 100px;
+    } 
+
+    /* sTART Follow Me section */
+
+    .follow_section .m-2 .follow_pic a i{
+        font-size: 34px;
+    }
+    .follow_section .m-2 .follow_pic p{
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 12px;
+    }
+    /* Start Footer Section */
+    footer h1{
+        padding-bottom: 20px;
+    }
+    .footer .container{
+        padding-bottom: 20px;
+    }
+    footer address h6 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 23px;
+    }
+}
+/* xxl-size */
+@media(min-width:1201px) and (max-width:1400px) {
+    
+.header_bg .container .row .pic-2{
+    padding-top: 75px;
+}
+/* Project Section */
+.my_project h1{
+    margin: 70px 0px;
+}
+
+.projecctname{
+    padding: 8px 20px;
+    font-size: 28px;
+}
+.p_hover{
+    padding-top:30% ;
+}
+.slider_pic h4{
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 600;
+}
+/* My Resume Section */
+.my_resume .row .gy-3 {
+    padding-top: 30px;
+}
+
+/* Start claint comment sections */
+.claint_comment{
+    padding: 40px 0px;
+    margin-top: 120px;
+} 
+/* Start Footer Section */
+
+}
+/* xxl-size */
+@media(min-width:1401px) and (max-width:4400px) {
+    
+.header_bg .container .row .pic-2{
+    padding-top: 95px;
+}
+/* My Resume Section */
+.my_resume .row .gy-3 {
+     padding-top: 50px;
+ }
+/* Project Section */
+.my_project h1{
+    margin: 80px 0px;
+}
+.projecctname{
+    padding: 8px 20px;
+    font-size: 28px;
+}
+.p_hover{
+    padding-top:30% ;
+}
+.slider_pic h4{
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* Start claint comment sections */
+.claint_comment{
+    padding: 50px 0px;
+    margin: 50px 0px;
+} 
+}

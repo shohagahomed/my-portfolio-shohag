@@ -1,0 +1,418 @@
+/* Link Cdn For Font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitter:wght@400;600;800;900&family=Catamaran:wght@400;600;700;900&family=DM+Sans:ital,wght@0,400;0,700;1,500&family=Dosis:wght@400;600;700;800&family=Montserrat:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.a_button{
+    color:white;
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 130px;
+}
+p,h1,h2,h3,h4,h5,h6,a,span,small{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+}
+
+/* start HEader Section */
+
+header{
+    background-image: url(../img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .header_bg{
+    background-color: rgba(0, 0, 0,.8);
+}
+header .header_bg p,h1{
+    color: #ffffff;
+}
+header .header_bg h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-family:"Abril Fatface";
+}
+header .header_bg a{
+    margin-top: 20px;
+    background-color: #35f1ac;
+    color: black;
+    transition: .6s all;
+}
+header .header_bg a:hover{
+    background-color: #059862;
+    color: white;
+}
+.r_header{
+    padding: 120px 0px 80px 0px;
+}
+.p_head{
+    font-size: 24px;
+    font-weight: 600;
+}
+.img-bg-1{
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Ends Header SEction */
+
+/* Start Nav SecTions   */
+
+nav{
+    background-color:rgba(0, 0, 0,.2);
+    
+}
+.navbar .navbar-nav .nav-item{
+    margin-right: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-weight: 600;
+    transition: 1s all;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #13b87b;
+    font-weight: 600;
+}
+.navbar .navbar-nav .nav-item .active_nav{
+    color: #13b87b;
+    font-weight: 700;
+}
+.navbar-toggler{
+   background-color: #fff;
+   color: transparent;
+}
+
+/* End NAv Sections */
+
+/* SAtart the main Services Section */
+.m_services i{
+    font-size: 70px;
+    color: #13b87b;
+    margin: 30px 0px;
+}
+.m_services h2{
+    font-size: 30px;
+    color: #3f403f;
+    font-weight: 700;
+}
+.m_services p{
+    color: #7b7f7b;
+    margin-top: 20px;
+}
+.services h1 span{
+    color: #3f403f;
+    font-weight: 700;
+}
+.span_main_r{
+    
+    color: #3f403f;
+    font-weight: 700;
+}
+
+/* End Services Section */
+
+/* saTART Counter Section */
+
+.work_done .work_done_bg{
+    padding: 70px 0px;
+}
+
+/* End Counter SEction */
+/* Start Education section */
+
+.about_data .a_button{
+    color:#13b87b;
+    border: 1px solid black;
+    border-radius: 0px;
+    transition: .6s all;
+    margin: 0px auto;
+    margin-bottom:20px ;
+}
+.about_data .a_button:hover{
+    color:#ffffff;
+    background: #13b87b;
+    border: 1px solid rgb(64, 6, 6);
+    border-radius: 0px;
+}
+.pic_data .img{
+    object-fit: cover;
+}
+.my_resume .degree p{
+    margin-top: 12px;
+    color: #7b7f7b;
+}
+.my_resume .degree small{
+    color: #2a2a2a;
+    font-style: italic;
+}
+.my_resume .degree h4{
+    color: #0b0b0b;
+    font-weight: 600;
+}
+.my_resume{
+    margin-top: 40px;
+}
+.pic_data{
+    text-align: center;
+}
+/* End Education Section */
+
+/* Start Work Done Section */
+
+.work_done{
+    background:url(../img/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work_done .work_done_bg{
+    background-color: rgba(0, 0, 0,.5);
+}
+
+/* Start Project Section */
+
+.container .project_sec .slider_pic{
+    position: relative;
+}
+.container .project_sec .slider_pic  img{
+    width: 100%;
+    object-fit: cover;
+}
+.slick-prev::before, .slick-next::before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #13b87b;
+}
+.p_hover{
+    position: absolute;
+    top:-220%;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    transition: 1s all;
+    background-color: rgba(0, 0, 0, .7);
+    padding-top:35% ;
+}
+.slider_pic h4{
+    margin-top: 20px;
+    color: #ffffff;
+}
+.slider_pic:hover .p_hover{
+    top:0px;
+    left:0px;
+    overflow: hidden;
+}
+.projecctname{
+    color:white;
+    text-decoration: none;
+    transition: 1s all;
+    border:2px solid transparent;
+    padding: 8px 30px;
+}
+.projecctname:hover{
+    color: #000000;
+    background: #13b87b;
+    border:2px solid #ffffff;
+}
+
+/* End Project Section  */
+
+
+
+/* Start claint comment sections */
+.claint_comment{
+    padding: 40px 0px;
+    background-color: #dee1e3;
+}
+.clint_header{
+    padding: 30px 0px;
+}
+.claint_comment p{
+    color: #505152;
+}
+.clint_header h6{
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.claint_comment .comment_div{
+    background-color: white;
+    margin-bottom: 30px;
+}
+.comment_div img{
+    width: 100%;
+}
+.comment_div h6{
+    font-weight: 600;
+    font-size: 22px;
+}
+/* End claint Comment Section */
+
+/* START suxxces Section */
+.another{
+    background: #33cc99;
+    padding: 100px 0px;
+}
+.another .mx-auto p{
+    font-size: 34px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.another .mx-auto a{
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+    transition: 1s all;
+}
+.another .mx-auto a:hover{
+    font-size: 16px;
+    color: #33cc99;
+    background-color: #ffffff;
+}
+/* END suxxces Sections */
+
+/* Start Form Section */
+
+.from_section{
+    background: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.from_section .form_width{
+    width: 65%;
+}
+.from_section .form_width label{
+    color: #555555;
+}
+.from_section .form_width textarea{
+    height: 140px;
+}
+
+.from_section form .button_f{
+    border: 0px solid transparent;
+    background: #0ca750;
+    color:white;
+    padding: 15px 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+    transition: .8s all;
+}
+.from_section form .button_f:hover{
+    background: #3bd67e;
+}
+.from_section form .display-5{
+    font-weight: 600;
+}
+
+/* End Form Section */
+
+/* Start Follow Me Sections */
+
+.my_follow{
+    padding: 60px 0px;
+}
+.my_follow h1{
+    margin-bottom: 40px;
+}
+.follow_section .m-2 .follow_pic{ 
+    background: #dee1e3;
+    padding: 40px 0px;
+}
+.follow_section .m-2 .follow_pic a {
+    color:#059e47;
+
+}
+.follow_section .m-2 .follow_pic a i{
+    font-size: 40px;
+}
+.follow_section .m-2 .follow_pic a i:hover{
+    color: #3bd67e;
+}
+.follow_section .m-2 .follow_pic p{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+/* End FollW Me Sections */
+
+/* start Footer Section */
+
+footer{
+    background-color: rgb(12, 12, 38);
+    color: white;
+    padding: 60px 0px 20px 0px;
+}
+footer .container{
+    padding-bottom: 30px;
+}
+footer h1{
+    padding-bottom: 30px;
+}
+.footer_p iframe{
+    border: 2px solid #3bd67e;
+}
+footer address h6 .fa-solid{
+    font-size: 32px;
+    color: #3bd67e;
+    margin-right: 10px;
+}
+footer address h6 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+footer address p {
+    font-size: 18px;
+    padding-left: 20px;
+    line-height: 2.5;
+}
+footer  h6 .fa-solid{
+    font-size: 32px;
+    color: #3bd67e;
+    margin-right: 10px;
+}
+footer  h6 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer_l p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+
+}
+.footer_l p i{
+    font-size: 28px;
+    color: #3bd67e;
+    padding-bottom: 10px;
+}
+.footer_l p a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s all;
+}
+.footer_l p a:hover{
+    color: #3bd67e;
+}
+.footer_l p a:hover i{
+    color: #ffffff;
+}
+footer iframe{
+    width: 100%;
+}
+footer .last_f{
+    padding-top: 40px;
+}
